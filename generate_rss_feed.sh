@@ -1,6 +1,6 @@
 #!/bin/bash
-
-LOG_FILE="/var/log/www_changes.log"
+# generate_rss_feed.sh
+LOG_FILE="`/var/log/www_changes.log`"
 RSS_FILE="/var/www/api/rss.webally.co.za/logs/rss_feed.xml"
 MAX_ITEMS=50
 

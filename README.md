@@ -43,14 +43,14 @@ To set up and use the File Change RSS Feed, follow these steps:
 3. Open the `generate_rss_feed.sh` script in a text editor and modify the `LOG_FILE`, `RSS_FILE`, and `MAX_ITEMS` variables if needed.
 
 4. Make the script executable by running the following command:
-   ```
-   chmod +x generate_rss_feed.sh
-   ```
+```
+chmod +x generate_rss_feed.sh
+```
 
 5. Set up a cron job or a similar scheduling mechanism to run the `generate_rss_feed.sh` script at your desired interval. For example, to run the script every minute, you can add the following line to your crontab:
-   ```
-   * * * * * /path/to/generate_rss_feed.sh
-   ```
+```
+* * * * * /path/to/generate_rss_feed.sh
+```
 
 6. Subscribe to the generated RSS feed using your preferred RSS reader or tool. The feed URL will be `http://rss.webally.co.za/logs/rss_feed.xml`.
 
@@ -62,10 +62,4 @@ This project is open-source and available under the [MIT License](LICENSE). Feel
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please open an issue or submit a pull request. Make sure to follow the existing code style and provide clear descriptions of your changes.
-
-## Support
-
-If you encounter any problems or have questions related to this project, please open an issue in the GitHub repository. We'll do our best to assist you.
-
-Happy monitoring!
+Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please open an issue or submit a pull request. Make sure to follow the existing code style and provide clear descriptions of your changes

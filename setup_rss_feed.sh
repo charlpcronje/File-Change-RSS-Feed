@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# setup_rss_feed.sh
 # Directory to store RSS feed and setup script
 TARGET_DIR="/var/www/api/rss.webally.co.za"
 

@@ -1,4 +1,5 @@
 #!/bin/bash
+# monitor_changes.sh
 
 # Define the log file
 LOG_FILE="/var/log/www_changes.log"
